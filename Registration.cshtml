@@ -1,0 +1,122 @@
+﻿@{
+    Layout = "~/Views/Shared/_PublicLayout.cshtml";
+}
+
+<div id="content-register">
+    <div class="info">
+        <div class="logo"><img class="mobile" src="http://safemovement.org/wp-content/uploads/2016/05/Logo_SAFE_2_color-2-150x150.png" alt="SAFE App - Movement to disrupt the spread of STD's in our lifetime"> <img class="desktop" src="http://safemovement.org/wp-content/uploads/2016/04/white_logo-big-277x300.png" alt="SAFE App - Movement to disrupt the spread of STD's in our lifetime"></div>
+        <p><strong>SAFE</strong> is a revolutionary new App that allows you to privately show your verified STD status on your phone, and check the status of your partners.</p>
+        <p>Sign up to be a beta tester and join the movement to make the world a safer (<strong><em>and more fun</em></strong>) place to be.</p>
+    </div>
+    <!-- registration form -->
+    <div class="register-form">
+        <div role="form" class="wpcf7" id="wpcf7-f3618-o1" lang="en-US" dir="ltr">
+            <div class="screen-reader-response"></div>
+            <form onsubmit="return register.register();" class="wpcf7-form">
+                <div style="display: none;">
+                    <input type="hidden" name="_wpcf7" value="3618"> <input type="hidden" name="_wpcf7_version" value="4.6"> <input type="hidden" name="_wpcf7_locale" value="en_US"> <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f3618-o1"> <input type="hidden" name="_wpnonce" value="c1b396a897">
+                </div>
+                <h2>Join the Movement</h2>
+                <div id="registerformContainer">
+                    <div>
+                        <div class="inline">
+                            <span class="wpcf7-form-control-wrap f-name">
+                                <input id="FirstName" type="text" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required f-name" aria-required="true" aria-invalid="false" placeholder="First name">
+                            </span>
+                            <span class="wpcf7-form-control-wrap l-name">
+                                <input id="LastName" type="text" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required l-name" aria-required="true" aria-invalid="false" placeholder="Last name">
+                            </span>
+                        </div>
+                        <p>
+                            <span class="wpcf7-form-control-wrap email">
+                                <input id="Email" type="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email email" aria-required="true" aria-invalid="false" placeholder="Email" required>
+                            </span>
+                            <span class="wpcf7-form-control-wrap email">
+                                <input id="Password" type="password" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email email" aria-required="true" aria-invalid="false" placeholder="Password" required>
+                            </span>
+                            <span class="wpcf7-form-control-wrap email">
+                                <input id="confirm_password" type="password" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email email" aria-required="true" aria-invalid="false" placeholder="Confirm Password" required>
+                            </span>
+                            <span class="wpcf7-form-control-wrap mobile">
+                                <input id="MobileNumber" type="tel" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel mobile" aria-invalid="false" placeholder="Mobile number">
+                            </span>
+                        </p>
+                    </div>
+                    <div class="inline two-thirds">
+                        <span class="wpcf7-form-control-wrap state">
+                            <input id="State" type="text" name="state" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required state" id="State" aria-required="true" aria-invalid="false" placeholder="State">
+                        </span>
+                        <span class="wpcf7-form-control-wrap zip">
+                            <input type="text" name="zip" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required zip" id="Zip" aria-required="true" aria-invalid="false" placeholder="Zip">
+                        </span>
+                    </div>
+                    <div>
+                        <span class="wpcf7-form-control-wrap dob">
+                            <input id="BirthDate" type="date" value="" class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date dob" aria-required="true" aria-invalid="false" placeholder="DOB: MM / DD /YY">
+                        </span>
+                    </div>
+                    <div>
+                        <span class="wpcf7-form-control-wrap gender">
+                            <span class="wpcf7-form-control wpcf7-radio gender" id="gender">
+                                <span class="wpcf7-list-item first">
+                                    <label>
+                                        <input id="SexB" type="radio" value="Boy" name="Sex">
+                                        <span class="wpcf7-list-item-label">Boy</span>
+                                    </label>
+                                </span>
+                                <span class="wpcf7-list-item">
+                                    <label>
+                                        <input id="SexG" type="radio" value="Girl" name="Sex">
+                                        <span class="wpcf7-list-item-label">Girl</span>
+                                    </label>
+                                </span>
+                                <span class="wpcf7-list-item last">
+                                    <label>
+                                        <input id="SexO" type="radio" value="Other" name="Sex">
+                                        <span class="wpcf7-list-item-label">Other</span>
+                                    </label>
+                                </span>
+                            </span>
+                        </span>
+                    </div>
+                    <footer class="inline two-thirds">
+                        <span class="terms">I agree to <a href="#">the Terms of Use</a> and <a href="#">Privacy Policy</a></span>
+                        <input type="submit" value="Sign Up" class="wpcf7-form-control wpcf7-submit">
+                    </footer>
+                </div>
+                <div class="mc4wp-response" id="registerMessageContainer">
+                    <div class="mc4wp-alert mc4wp-success">
+                        <p id="registerMessage"></p>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div><!-- /.register-form -->
+    <footer id="footer">
+        <ul class="hashtag">
+            <li><a href="https://twitter.com/intent/tweet?text=Sexual accountability for everyone&hashtags=BeSafe&url=http://wwww.safemovement.org" target="_blank">#BeSafe</a></li>
+        </ul>
+        <ul class="icons">
+            <li><a href="https://www.facebook.com/thesafesexapp/" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+            <li><a href="https://www.twitter.com/thesafesexapp/" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="https://www.instagram.com/thesafesexapp/" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="mailto:info@safemovement.org?subject=Hello" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+        </ul>
+    </footer>
+</div>
+<script>
+    var password = document.getElementById("Password")
+  , confirm_password = document.getElementById("confirm_password");
+
+    function validatePassword() {
+        if (password.value != confirm_password.value) {
+            confirm_password.setCustomValidity("Passwords Don't Match");
+        } else {
+            confirm_password.setCustomValidity('');
+        }
+    }
+
+    password.onchange = validatePassword;
+    confirm_password.onkeyup = validatePassword;
+</script>
